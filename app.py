@@ -5,7 +5,7 @@ import plotly.express as px
 import streamlit as st
 
 st.set_page_config(page_title="Watchlist Explorer", layout="wide")
-st.title("Watchlist Explorer")
+st.title("Douglas Explorer")
 st.caption("Six tech stocks, weekly, 2018-2019. Indexed to 1.00 on 2018-01-01.")
 
 
