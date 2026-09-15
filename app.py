@@ -56,7 +56,7 @@ fig = px.line(
     labels={"price": "Rebased (start = 100)" if rebase else "Index (2018-01-01 = 1.00)",
             "date": ""},
 )
-fig.update_layout(height=420, margin=dict(t=30, b=0), legend_title_text="")
+fig.update_layout(height=420, margin=dict(t=45, b=0), legend_title_text="")
 
 st.plotly_chart(fig)
 
